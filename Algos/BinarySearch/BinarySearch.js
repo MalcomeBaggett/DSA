@@ -11,6 +11,5 @@ const search = function (nums, target) {
       right = mid - 1;
     }
   }
-
   return -1;
 };
