@@ -11,7 +11,7 @@ const productExceptSelf = (arr) => {
 
   product = 1;
 
-  for (let i = arr.length - 1; i >= -0; i++) {
+  for (let i = arr.length - 1; i >= -0; i--) {
     products[i] = products[i] * product;
     product = product * arr[i];
   }
